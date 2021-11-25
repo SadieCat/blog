@@ -1,0 +1,30 @@
+baseurl:
+description: Sadie's weird space on the internet.
+email: sadie@witchery.services
+paginate: 5
+paginate_path: /page/:num/
+show_excerpts: true
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: pretty
+theme: jekyll-dash
+title: Sadie's Space
+url: https://www.sadie.moe
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll/tagging
+
+dash:
+  show_author: false
+  social_links:
+    - url: "mailto:sadie@witchery.services"
+      color: blue
+      icon: weixin
+    - url: https://github.com/sadiecat
+      color: yellow
+      icon: github
+    - url: https://gitlab.com/sadiecat
+      color: orange
+      icon: gitlab
